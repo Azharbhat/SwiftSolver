@@ -1,0 +1,237 @@
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 53, 127));
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Container{ 
+  width: 62vh;
+  height: 82vh;
+  background-color: rgb(4, 44, 54);
+  border-radius: 2rem;
+  box-shadow: 0 0 10px cyan;
+  padding: 1rem;
+}
+.left{
+padding-top: 2rem;
+width: 100%;
+height: 62vh;
+}
+.sub-left{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+.right{
+  padding-top: 2rem;
+  width: 100%;
+  height: 62vh;
+}
+.sub-right{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+.input{
+  
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+  width: 95%;
+  height: 7vh;
+  background-color: lightcyan;
+  font-size: 30px;
+  border-radius: 0.6rem;
+  text-align: right;
+  direction: 'rtl';
+}
+h2{
+  margin: 0rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.inputt{
+  width: 95%;
+  height: 1vh;
+  color: antiquewhite;
+  font-size: 30px;
+  text-align: right;
+  direction: 'rtl';
+
+}
+.btn{
+  width: 3rem;
+  height: 4rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0.5rem;
+  box-shadow: 5px 2px 4px black;
+  border-radius: 10px;
+  background-color: darkcyan;
+}
+.btnn{
+  width: 7rem;
+  height: 4rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0.5rem;
+  box-shadow: 5px 2px 4px black;
+  border-radius: 10px;
+  background-color: darkcyan;
+}
+.btnn:hover{
+  background-color: blueviolet;
+}
+
+.num-btn{
+  width: 3rem;
+  height: 4rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0.5rem;
+  background-color: white;
+  box-shadow: 5px 2px 4px black;
+  border-radius: 10px;
+
+}
+.op-btn{
+  
+  cursor: pointer;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0.5rem;
+  width: 3rem;
+  height: 4rem;
+  box-shadow: 5px 2px 4px black;
+  background-color: cyan;
+  
+  box-shadow: 5px 2px 4px black;
+}
+.btn:hover{
+  background-color: rgb(74, 46, 110);;
+}
+.op-btn:hover{
+  background-color: rgb(74, 46, 110);;
+}
+.num-btn:hover{
+  background-color: rgb(74, 46, 110);;
+}
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0rem;
+  padding: 0rem;
+}
+ @media screen and (max-width:600px){
+  .btn-container{
+    padding-top: 1rem;
+  }
+  .Container{ 
+    margin-left: 1rem;
+    width: 54vh;
+    height: 75vh;
+    background-color: rgb(4, 44, 54);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px cyan;
+    padding: 1.5rem;
+   
+  }
+  .btn{
+    width: 2.5rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0.5rem;
+    box-shadow: 5px 2px 4px black;
+    border-radius: 10px;
+    background-color: darkcyan;
+  }
+  .btnn{
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0.5rem;
+    box-shadow: 5px 2px 4px black;
+    border-radius: 10px;
+    background-color: darkcyan;
+  }
+  .btnn:hover{
+    background-color: blueviolet;
+  }
+  
+  .num-btn{
+    width: 2.5rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 5px 2px 4px black;
+    border-radius: 10px;
+  
+  }
+  .op-btn{
+    
+    cursor: pointer;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0.5rem;
+    width: 2.5rem;
+    height: 3rem;
+    box-shadow: 5px 2px 4px black;
+    background-color: cyan;
+    
+    box-shadow: 5px 2px 4px black;
+  }
+  .btn:hover{
+    background-color: rgb(74, 46, 110);;
+  }
+  .op-btn:hover{
+    background-color: rgb(74, 46, 110);;
+  }
+  .num-btn:hover{
+    background-color: rgb(74, 46, 110);;
+  }
+  .btn-container{
+    display: flex;
+    flex-direction: row;
+  }
+  
+ }
